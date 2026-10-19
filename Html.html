@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>drill drill 2</title>
+
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+
+        .my-container{
+            width: 500px;
+            height:350px;
+            padding:10px;
+            border:3px groove rgb(58, 81, 54);
+            border-width: 8px;
+            margin: auto;
+            border-radius:3%;
+            background-color:rgb(148, 190, 150);
+        }
+    </style>
+</head>
+<body>
+    <div id="output1"></div>
+    <script type="py" src="main.py"></script>
+    <br>
+
+<div class="my-container">
+    <div class="container-fluid bg-dark">
+    </div>
+
+    <h2>Add club member:</h2>
+    <p>Marching Band Club</p>
+
+    <div>
+<br>
+    <label for="firstname">First name:</label>
+    <input type="text" id="firstname" placeholder="Enter first name:">
+    <br>
+    <label for="lastname">Last name:</label>
+    <input type="text" id="lastname" placeholder="Enter last name:">
+    <br>
+    <button id="button" py-click="checkclub">Submit</button>
+    <br>
+    </div>
+<br>
+<h1>All members:</h1>
+<p>
+Adriana Averilla
+Ciara De Guzman
+Rafael Roncal
+Dustin Cunanan
+Ian Salangsang
+Zyrene Nieto
+Sofia Guevarra
+Riso Salaputan
+Nicole Replona
+Noelle Acuna
+</p>
+
+</body>
+</html>
